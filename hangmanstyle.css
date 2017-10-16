@@ -14,6 +14,7 @@ body {
 
 #finishMessage {
     color: lightpink;
+    font-weight: normal;
 }
 
 .submitInfo {
