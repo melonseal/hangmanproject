@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Project</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="hangmanstyle.css">
+</head>
+<body>
+
+<div class="constant" id="title" >Play Hangman!</div>
+
+<div id="chooseDifficulty" class="beforeGame">
+    <label for="pickDifficulty" id="whatDifficulty" class="selectLabel" >Difficulty of word:</label>
+    <select id="pickDifficulty">
+        <option value="1">easy</option>
+        <option value="2">medium</option>
+        <option value="3">difficult</option>
+        <option value="4">obscure</option>
+    </select>
+</div>
+
+<button id="submitButton" onclick="startGame()" class="submitInfo">Play!</button>
+
+<div id="guessALetter" class="inGame"></div>
+
+<div id="submitLetter"></div>
+
+<div id="listOfGuessedLetters" class="inGame"></div>
+<div id="hangmanImage" class="inGame"></div>
+<div id="guessesRemaining" class="inGame"></div>
+<div id="wordSoFar" class="inGame"></div>
+
+<div id="finishMessage" class="afterGame"></div>
+
+<div id="newGame" class="afterGame"></div>
+
+<div id="winsAndLosses" class="throughGames"></div>
+
+</body>
+</html>

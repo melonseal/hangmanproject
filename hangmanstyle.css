@@ -1,0 +1,30 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: azure;
+    text-align: center;
+    color: midnightblue;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    color: midnightblue;
+    margin-bottom: 10px;
+}
+
+#finishMessage {
+    color: lightpink;
+}
+
+.submitInfo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: lightpink;
+    border-color: black;
+    border-width: 1px;
+    background-color: azure;
+}
+
+.selectLabel {
+    color: midnightblue;
+}
