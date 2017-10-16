@@ -1,3 +1,6 @@
+/*
+ * created by Sarah Blankespoor on 10/15/17 for IB Computer science
+ */
 var easyWords = ["cat", "dog", "hello", "less", "more", "red", "green", "happy", "cow", "day"];
 var mediumWords = ["forested", "lonely", "misty", "explain", "code", "realize", "hopeful", "creative", "dream",
     "lizard", "panda", "goat", "paste", "thought", "idea", "medium", "hangman", "delete", "guess",
